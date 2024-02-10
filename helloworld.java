@@ -14,7 +14,7 @@ public class helloworld
 		System.out.println("Subtraction of a and b = "+d);
 		System.out.println("Multiplication of a and b = "+e);
 		System.out.println("Division of a and b = "+f);
-		System.ut.println("Power of a1 and b1 = "+c1);
+		System.out.println("Power of a1 and b1 = "+c1);
 	}
 
 }
