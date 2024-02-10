@@ -10,7 +10,7 @@ public class helloworld
 		int f = a / b;
 		double a1 = 10;
 		double b1 = 5;
-		double c1 = math.pow(a1,b1);
+		double c1 = Math.pow(a1,b1);
 		System.out.println("Subtraction of a and b = "+d);
 		System.out.println("Multiplication of a and b = "+e);
 		System.out.println("Division of a and b = "+f);
