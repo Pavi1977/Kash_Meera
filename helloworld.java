@@ -41,12 +41,12 @@ public class helloworld
 			}
 	System.out.println("String Counting process");
 		String string="Welcome the world of IT Field";
-		int cnt=0;
+		int count1=0;
 		for(int j=0;j<string.length();j++)
 			{
 				if(string.charAt(j)!="")
-					cnt++;
+					count1++;
 			}
-		System.out.println("Count of the given character string is "+cnt);
+		System.out.println("Count of the given character string is "+count1);
 	}
 }
