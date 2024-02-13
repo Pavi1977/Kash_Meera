@@ -39,5 +39,14 @@ public class helloworld
 				n1=n2;
 				n2=n3;
 			}
+	System.out.println("String Counting process");
+		String Stg="Welcome the world of IT Field";
+		int cnt=0;
+		for(int i1=0;i1<string.length();i1++)
+			{
+				if(Stg.charAt(i1)!='')
+					cnt++;
+			}
+		System.out.println("Count of the given character string is "+cnt);
 	}
 }
