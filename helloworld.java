@@ -10,6 +10,10 @@ public class helloworld
 		int f = a / b;
 		double a1 = 15;
 		double b1 = 3;
+		int n1=0; n2=1; 
+		int n3;
+		int i; 
+		int count=10;
 		double c1 = Math.pow(a1,b1);
 		System.out.println("Subtraction of a="+a+" and b= "+b+" is "+d);
 		System.out.println("Multiplication of a="+a+" and b= "+b+" is "+e);
@@ -26,7 +30,6 @@ public class helloworld
 			System.out.println("a is lesser than b");
 		}
 		System.out.println("Checking the Fibonacci Series based on given boundary value"
-		int n1=0, n2=1, n3,i, count=100;
 		System.out.print(n1,","+n2);
 			for(i=2,i<count,++i)
     				{	
