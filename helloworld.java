@@ -20,10 +20,20 @@ public class helloworld
 		if (a>b)
 		{
 			System.out.println("a is greater than b");
-}
+		}
 		else
 		{
 			System.out.println("a is lesser than b");
-
-
+		}
+		System.out.println("Checking the Fibonacci Series based on given boundary value"
+		int n1=0, n2=1, n3,i, count=100;
+		System.out.print(n1,","+n2);
+			for(i=2,i<count,++i)
+    				{	
+					n3=n1+n2:
+					System.out.println(","+n3);
+					n1=n2;
+					n2=n3;
+				}
+	}
 }
