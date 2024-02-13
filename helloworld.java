@@ -32,7 +32,7 @@ public class helloworld
 		int i; 
 		int count=10;
 		System.out.println(n1+" "+n2);
-		for(i=2,i<count,++i)
+		for(i=2;i<count;++i)
 		    	{
 				n3=n2;
 				System.out.println(" "+n3);
