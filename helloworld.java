@@ -16,7 +16,14 @@ public class helloworld
 		System.out.println("Division of of a="+a+" and b="+b+" is "+f);
 		System.out.println("Power of a1 and b1 is "+c1);
 		System.out.println("Adding new Main");
+		System.out.println("Condition details verification");
+		if (a>b)
+		{
+			System.out.println("a is greater than b");
 }
+		else
+		{
+			System.out.println("a is lesser than b");
 
 
 }
