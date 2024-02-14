@@ -25,19 +25,27 @@ public class helloworld
 		{
 			System.out.println("a is lesser than b");
 		}
-	System.out.println("Fibonacci Series");
 		int n1=0; 
 		int n2=1; 
 		int n3;
 		int i; 
 		int count=10;
-		System.out.println(n1+" "+n2);
+		System.out.print("Fibonacci Series for the given count: "+count+" are "+n1);
 		for(i=2;i<count;++i)
 		    	{
 				n3=n1+n2;
-				System.out.println(" "+n3);
+				System.out.print(" "+n3);
 				n1=n2;
 				n2=n3;
 			}
-	}
+		System.out.println("String Counting process");
+		String string="Welcome the world of IT Field";
+		int cnt=0;
+		for(int i1=0;i1<string.length();i1++)
+			{
+				if(string.charAt(i1) !=' ')
+					cnt++;
+			}
+		System.out.println("Count of the given character string is "+cnt);
+	      }
 }
