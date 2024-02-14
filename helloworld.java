@@ -40,7 +40,7 @@ public class helloworld
 				n2=n3;
 			}
 	System.out.println("String Counting process");
-		String string="Welcome the world of IT Field";
+		String string="Welcome the world of IT Environment";
 		int cnt=0;
 		for(int i1=0;i1<string.length();i1++)
 			{
