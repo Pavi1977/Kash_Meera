@@ -52,13 +52,12 @@ public class helloworld
 			}
 		System.out.println("Count of the given character string is "+cnt);
 		int count1 = 0;    
-		String str = "He said, 'The most you hate, the most you! loved.' I heard it with my own ears.";
-		System.out.println("Punctuation Quote's '"+str+"'");
+		String str = "He said, 'The most loved person.' Is most hated person in the life.";    
 		for (int j = 0; j < str.length(); j++)   
 		{    
 		//Checks whether given character is punctuation mark    
 		if(str.charAt(j) == '!' || str.charAt(j) == ',' || str.charAt(j) == ';' || str.charAt(j) == '.' ||  str.charAt(j) == '?' || str.charAt(j) == '-' ||    
-		str.charAt(i) == '\'' || str.charAt(i) == '\"' || str.charAt(i) == ':')   
+		str.charAt(j) == '\'' || str.charAt(j) == '\"' || str.charAt(j) == ':')   
 		{    
 		count1++;    
 		}    
