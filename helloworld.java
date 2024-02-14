@@ -53,6 +53,7 @@ public class helloworld
 		System.out.println("Count of the given character string is "+cnt);
 		int count1 = 0;    
 		String str = "He said, 'The most loved person.' Is most hated person in the life.";    
+		System.out.println("Punctuation Quotes is '"+str+"'");
 		for (int j = 0; j < str.length(); j++)   
 		{    
 		//Checks whether given character is punctuation mark    
