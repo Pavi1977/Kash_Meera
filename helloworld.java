@@ -50,11 +50,11 @@ public class helloworld
 		System.out.println("Count of the given character string is "+cnt);
 		int count1 = 0;    
 		String str = "He said, 'The mailman loves you.' I heard it with my own ears.";    
-		for (int i = 0; i < str.length(); i++)   
+		for (int j = 0; j < str.length(); j++)   
 		{    
 		//Checks whether given character is punctuation mark    
-		if(str.charAt(i) == '!' || str.charAt(i) == ',' || str.charAt(i) == ';' || str.charAt(i) == '.' ||  str.charAt(i) == '?' || str.charAt(i) == '-' ||    
-		str.charAt(i) == '\'' || str.charAt(i) == '\"' || str.charAt(i) == ':')   
+		if(str.charAt(j) == '!' || str.charAt(j) == ',' || str.charAt(j) == ';' || str.charAt(j) == '.' ||  str.charAt(j) == '?' || str.charAt(j) == '-' ||    
+		str.charAt(j) == '\'' || str.charAt(j) == '\"' || str.charAt(j) == ':')   
 		{    
 		count1++;    
 		}    
