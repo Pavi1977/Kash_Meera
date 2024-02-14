@@ -43,7 +43,7 @@ public class helloworld
 			}
 		System.out.println("Count of the given character string is "+cnt);
 		int count1 = 0;    
-		String str = "He said, 'The mailman loves you.' I heard it with my own ears.";    
+		String str = "He said, 'The most loved person.' Is most hated person in the life.";    
 		for (int i = 0; i < str.length(); i++)   
 		{    
 		//Checks whether given character is punctuation mark    
