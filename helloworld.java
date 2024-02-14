@@ -26,8 +26,6 @@ public class helloworld
 			System.out.println("a is lesser than b");
 		}
 	System.out.println("Fibonacci Series");
-		int n1=0, int n2=1, n3,i, count=10;
-		System.out.println(n1);
 		for(i=2;i<count;++i)
 		    	{
 				n3=n1+n2;
@@ -35,5 +33,26 @@ public class helloworld
 				n1=n2;
 				n2=n3;
 			}
+	System.out.println("String Counting process");
+		String string="Welcome the world of IT Environments";
+		int cnt=0;
+		for(int i1=0;i1<string.length();i1++)
+			{
+				if(string.charAt(i1) !=' ')
+					cnt++;
+			}
+		System.out.println("Count of the given character string is "+cnt);
+		int count1 = 0;    
+		String str = "He said, 'The mailman loves you.' I heard it with my own ears.";    
+		for (int i = 0; i < str.length(); i++)   
+		{    
+		//Checks whether given character is punctuation mark    
+		if(str.charAt(i) == '!' || str.charAt(i) == ',' || str.charAt(i) == ';' || str.charAt(i) == '.' ||  str.charAt(i) == '?' || str.charAt(i) == '-' ||    
+		str.charAt(i) == '\'' || str.charAt(i) == '\"' || str.charAt(i) == ':')   
+		{    
+		count1++;    
+		}    
+		}    
+		System.out.println("The number of punctuations exists in the string is: " +count1);    
 	}
 }
