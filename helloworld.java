@@ -30,7 +30,8 @@ public class helloworld
 		int n3;
 		int i; 
 		int count=10;
-		System.out.print("Fibonacci Series for the given count: "+count+" are "+n1);
+		System.out.print("Fibonacci Series for the given count: "+count+" are "+n1+" ");
+        	//System.out.println("Fibonacci Series");
 		for(i=2;i<count;++i)
 		    	{
 				n3=n1+n2;
@@ -38,8 +39,11 @@ public class helloworld
 				n1=n2;
 				n2=n3;
 			}
+		System.out.println("");
 		System.out.println("String Counting process");
-		String string="Welcome the world of IT Field";
+		//String string="Welcome the world of IT Field";
+		//System.out.println("String Counting process");
+		String string="Welcome the world of IT Environments";
 		int cnt=0;
 		for(int i1=0;i1<string.length();i1++)
 			{
@@ -47,5 +51,18 @@ public class helloworld
 					cnt++;
 			}
 		System.out.println("Count of the given character string is "+cnt);
-	      }
+		int count1 = 0;    
+		String str = "He said, 'The most you hate, the most you! loved.' I heard it with my own ears.";
+		System.out.println("Punctuation Quote's '"+str+"'");
+		for (int j = 0; j < str.length(); j++)   
+		{    
+		//Checks whether given character is punctuation mark    
+		if(str.charAt(j) == '!' || str.charAt(j) == ',' || str.charAt(j) == ';' || str.charAt(j) == '.' ||  str.charAt(j) == '?' || str.charAt(j) == '-' ||    
+		str.charAt(i) == '\'' || str.charAt(i) == '\"' || str.charAt(i) == ':')   
+		{    
+		count1++;    
+		}    
+		}    
+		System.out.println("The number of punctuations exists in the string is: " +count1);    
+	}
 }
