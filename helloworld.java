@@ -29,7 +29,7 @@ public class helloworld
 		int n2=1; 
 		int n3;
 		int i; 
-		int count=10;
+		int count=20;
 		System.out.print("Fibonacci Series for the given count: "+count+" are "+n1+" ");
         	//System.out.println("Fibonacci Series");
 		for(i=2;i<count;++i)
